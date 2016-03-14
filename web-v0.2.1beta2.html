@@ -13,7 +13,7 @@ function Calculate() {
   var T2 = 16
   var T3 = 24
   var T4 = 72
-
+  var T5 = 144
   var W1 = 18
   var W2 = 24
   var W3 = 30
@@ -33,6 +33,10 @@ function Calculate() {
   if (myForm.elements["T4_Mnt"].value == "") myForm.elements["T4_Mnt"].value = "0"
   if (myForm.elements["T4_Ft" ].value == "") myForm.elements["T4_Ft" ].value = "0"
   if (myForm.elements["T4_Rng"].value == "") myForm.elements["T4_Rng"].value = "0"
+
+  if (myForm.elements["T5_Mnt"].value == "") myForm.elements["T5_Mnt"].value = "0"
+  if (myForm.elements["T5_Ft" ].value == "") myForm.elements["T5_Ft" ].value = "0"
+  if (myForm.elements["T5_Rng"].value == "") myForm.elements["T5_Rng"].value = "0"
 
   if (myForm.elements["W1_A"  ].value == "") myForm.elements["W1_A"  ].value = "0"
   if (myForm.elements["W1_B"  ].value == "") myForm.elements["W1_B"  ].value = "0"
@@ -62,6 +66,10 @@ function Calculate() {
   myForm.elements["mT4_Ft" ].value = parseInt(myForm.elements["T4_Ft" ].value) * T4
   myForm.elements["mT4_Rng"].value = parseInt(myForm.elements["T4_Rng"].value) * T4
 
+  myForm.elements["mT5_Mnt"].value = parseInt(myForm.elements["T5_Mnt"].value) * T5
+  myForm.elements["mT5_Ft" ].value = parseInt(myForm.elements["T5_Ft" ].value) * T5
+  myForm.elements["mT5_Rng"].value = parseInt(myForm.elements["T5_Rng"].value) * T5
+
   Troop_Might =               parseInt(myForm.elements["mT1_Mnt"].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Ft" ].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Rng"].value)
@@ -77,6 +85,10 @@ function Calculate() {
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Mnt"].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Ft" ].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Rng"].value)
 
   myForm.elements["Troop_Might"].value = Troop_Might 
 
@@ -169,6 +181,14 @@ function Calculate() {
 <td><input name="mT4_Rng" type="text" style="border: none" readonly></input></td></tr>
 
 <tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T5</td><td>Riders of Rivendell</td><td>Riders of Erebor<td><input name="T5_Mnt" class="pop" ></input></td>
+<td><input name="mT5_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T5</td><td>Elven Rangers</td><td>Grimm Hammers</td><td><input name="T5_Ft" class="pop" ></input></td>
+<td><input name="mT5_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T5</td><td>GaladhrimArchers</td><td>CrossbowWarriors</td><td><input name="T5_Rng" class="pop"></input></td>
+<td><input name="mT5_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
 <tr><td colspan=4><strong>Troop Might Total</strong></td>
 <td><input name="Troop_Might" type="text" style="border: none" readonly></input></td></tr>
 
@@ -224,5 +244,6 @@ function Calculate() {
 
 
 </form>
+<a href="http://goo.gl/forms/uCTHFh7S3L">Contact/Feedback</a> <a href="http://beffsmc.beffsbrowser.tk/changes0.2.1B.rtf">ChangeLog</a>
 </body>
 </html>
