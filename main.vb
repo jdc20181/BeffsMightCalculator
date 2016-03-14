@@ -97,7 +97,7 @@ public Class main
         TextBox71.Text = "0"
         TextBox72.Text = "0"
         TextBox73.Text = "0"
-        TextBox74.Text = "0"
+        TextBox74.Text = "0" 
         TextBox75.Text = "0"
         TextBox76.Text = "0"
         TextBox77.Text = "0"
