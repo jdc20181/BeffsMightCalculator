@@ -4,7 +4,14 @@ V. 0.2.1 "To the web"
 
 BeffsMC is now a web-based project as we transition from VB.net to java/html it is gonna get fun!
 
-Disclaimer/TOS 
+
+#Archives
+The offical Archives for any old code will be moved here: https://github.com/jdc20181/BeffsMightCalculatorArchives
+This will prevent clutter!
+
+
+
+#Disclaimer/TOS 
 
 Beffs Might Calculator Disclaimer
 
