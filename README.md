@@ -9,7 +9,11 @@ BeffsMC is now a web-based project as we transition from VB.net to java/html it 
 The offical Archives for any old code will be moved here: https://github.com/jdc20181/BeffsMightCalculatorArchives
 This will prevent clutter!
 
+#Working with BeffsMightCalculator
 
+I have created (With the help of a tutorial!) A way for you to edit BMC and make your changes and preview them! 
+That can be found at http://www.beffsmc.beffsbrowser.tk/editor.html
+Then, when you made and preview changes you can contact me by using the contact form at the bottom of the BMC site (http://beffsmc.beffsbrowser.tk) with your changes!
 
 #Disclaimer/TOS 
 
