@@ -6,7 +6,7 @@ BeffsMC is now a web-based project as we transition from VB.net to java/html it 
 
 
 #Archives
-The offical Archives for any old code will be moved here: https://github.com/jdc20181/BeffsMightCalculatorArchives
+You will find Archives in the Archives Folder!
 This will prevent clutter!
 
 #Working with BeffsMightCalculator
