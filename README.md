@@ -4,14 +4,15 @@ V. 0.2.1 "To the web"
 
 BeffsMC is now a web-based project as we transition from VB.net to java/html it is gonna get fun!
 
+#Folders
 
-#Archives
-You will find Archives in the Archives Folder!
-This will prevent clutter!
+Archives: Contains old versions, including the vb.net code
 
-#Working with BeffsMightCalculator
- 
-You can view the developer guide here: https://github.com/jdc20181/BeffsMightCalculator/blob/master/Devguide.md 
+Docs: Contains info on Developing BMC, Change logs and The BMC Disclaimer policy 
+
+Current: Has the latest files for The DeskTop and Mobile Version. 
+
+
 #Disclaimer/TOS 
 
 Beffs Might Calculator Disclaimer
