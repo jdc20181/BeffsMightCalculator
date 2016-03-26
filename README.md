@@ -10,8 +10,8 @@ You will find Archives in the Archives Folder!
 This will prevent clutter!
 
 #Working with BeffsMightCalculator
-
-You can view the developer guide here: https://github.com/jdc20181/BeffsMightCalculator/blob/master/Devguide.md
+ 
+You can view the developer guide here: https://github.com/jdc20181/BeffsMightCalculator/blob/master/Devguide.md [DevGuide.md]
 
 #Disclaimer/TOS 
 
