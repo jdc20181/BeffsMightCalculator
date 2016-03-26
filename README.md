@@ -12,6 +12,7 @@ Docs: Contains info on Developing BMC, Change logs and The BMC Disclaimer policy
 
 Current: Has the latest files for The DeskTop and Mobile Version. 
 
+Dev: Has the Code for the working in progress new version. 
 
 #Disclaimer/TOS 
 
