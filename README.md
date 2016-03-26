@@ -35,4 +35,4 @@ To preserve the integrity of The Hobbit, you must agree to these terms/ acknowle
 
 -I reserve the right to modify this at any given point with or without notice. 
 
-Last Edit : 3-13-16 V. 1.0 
+This Polciy was Last Edit : 3-13-16 V. 1.0 
