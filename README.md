@@ -11,7 +11,7 @@ This will prevent clutter!
 
 #Working with BeffsMightCalculator
  
-You can view the developer guide here: https://github.com/jdc20181/BeffsMightCalculator/blob/master/Devguide.md [DevGuide.md]
+You can view the developer guide here: https://github.com/jdc20181/BeffsMightCalculator/blob/master/Devguide.md Devguide.md
 
 #Disclaimer/TOS 
 
