@@ -1,0 +1,327 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></meta>
+<meta name="HandheldFriendly" content="true"></meta> 
+<meta><title>BeffsMightCalculator</title>
+</head>
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "http://beffsmc.beffsbrowser.tk/mobile.html";
+}
+//-->
+</script>
+<style>
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
+<body>
+<p> This is the Third (Final) Beta Test! </p>
+<script language="javascript" type="text/javascript">
+
+function Calculate() {
+  myForm = document.forms[0]
+
+  var T1 =  4
+  var T2 = 16
+  var T3 = 24
+  var T4 = 72
+  var T5 = 144
+  var T6 = 100 
+  var T7 = 10
+  var T8 = 6
+  var W1 = 18
+  var W2 = 24
+  var W3 = 30
+
+  if (myForm.elements["T1_Mnt"].value == "") myForm.elements["T1_Mnt"].value = "0"
+  if (myForm.elements["T1_Ft" ].value == "") myForm.elements["T1_Ft" ].value = "0"
+  if (myForm.elements["T1_Rng"].value == "") myForm.elements["T1_Rng"].value = "0"
+
+  if (myForm.elements["T2_Mnt"].value == "") myForm.elements["T2_Mnt"].value = "0"
+  if (myForm.elements["T2_Ft" ].value == "") myForm.elements["T2_Ft" ].value = "0"
+  if (myForm.elements["T2_Rng"].value == "") myForm.elements["T2_Rng"].value = "0"
+
+  if (myForm.elements["T3_Mnt"].value == "") myForm.elements["T3_Mnt"].value = "0"
+  if (myForm.elements["T3_Ft" ].value == "") myForm.elements["T3_Ft" ].value = "0"
+  if (myForm.elements["T3_Rng"].value == "") myForm.elements["T3_Rng"].value = "0"
+
+  if (myForm.elements["T4_Mnt"].value == "") myForm.elements["T4_Mnt"].value = "0"
+  if (myForm.elements["T4_Ft" ].value == "") myForm.elements["T4_Ft" ].value = "0"
+  if (myForm.elements["T4_Rng"].value == "") myForm.elements["T4_Rng"].value = "0"
+
+  if (myForm.elements["T5_Mnt"].value == "") myForm.elements["T5_Mnt"].value = "0"
+  if (myForm.elements["T5_Ft" ].value == "") myForm.elements["T5_Ft" ].value = "0"
+  if (myForm.elements["T5_Rng"].value == "") myForm.elements["T5_Rng"].value = "0"
+
+  if (myForm.elements["T6_Mnt"].value == "") myForm.elements["T6_Mnt"].value = "0"
+  if (myForm.elements["T6_Ft" ].value == "") myForm.elements["T6_Ft" ].value = "0"
+  if (myForm.elements["T6_Rng"].value == "") myForm.elements["T6_Rng"].value = "0"
+  if (myForm.elements["T6_Rng2"].value == "") myForm.elements["T6_Rng2"].value = "0"
+  if (myForm.elements["T6_Rng3"].value == "") myForm.elements["T6_Rng3"].value = "0"
+
+  if (myForm.elements["T7_Mnt"].value == "") myForm.elements["T7_Mnt"].value = "0"
+  if (myForm.elements["T7_Ft" ].value == "") myForm.elements["T7_Ft" ].value = "0"
+
+  if (myForm.elements["T8_Rng"].value == "") myForm.elements["T8_Rng"].value = "0"
+
+  if (myForm.elements["W1_A"  ].value == "") myForm.elements["W1_A"  ].value = "0"
+  if (myForm.elements["W1_B"  ].value == "") myForm.elements["W1_B"  ].value = "0"
+  if (myForm.elements["W1_C"  ].value == "") myForm.elements["W1_C"  ].value = "0"
+
+  if (myForm.elements["W2_A"  ].value == "") myForm.elements["W2_A"  ].value = "0"
+  if (myForm.elements["W2_B"  ].value == "") myForm.elements["W2_B"  ].value = "0"
+  if (myForm.elements["W2_C"  ].value == "") myForm.elements["W2_C"  ].value = "0"
+
+  if (myForm.elements["W3_A"  ].value == "") myForm.elements["W3_A"  ].value = "0"
+  if (myForm.elements["W3_B"  ].value == "") myForm.elements["W3_B"  ].value = "0"
+  if (myForm.elements["W3_C"  ].value == "") myForm.elements["W3_C"  ].value = "0"
+ 
+  myForm.elements["mT1_Mnt"].value = parseInt(myForm.elements["T1_Mnt"].value) * T1
+  myForm.elements["mT1_Ft" ].value = parseInt(myForm.elements["T1_Ft" ].value) * T1
+  myForm.elements["mT1_Rng"].value = parseInt(myForm.elements["T1_Rng"].value) * T1
+
+  myForm.elements["mT2_Mnt"].value = parseInt(myForm.elements["T2_Mnt"].value) * T2
+  myForm.elements["mT2_Ft" ].value = parseInt(myForm.elements["T2_Ft" ].value) * T2
+  myForm.elements["mT2_Rng"].value = parseInt(myForm.elements["T2_Rng"].value) * T2
+
+  myForm.elements["mT3_Mnt"].value = parseInt(myForm.elements["T3_Mnt"].value) * T3
+  myForm.elements["mT3_Ft" ].value = parseInt(myForm.elements["T3_Ft" ].value) * T3
+  myForm.elements["mT3_Rng"].value = parseInt(myForm.elements["T3_Rng"].value) * T3
+ 
+  myForm.elements["mT4_Mnt"].value = parseInt(myForm.elements["T4_Mnt"].value) * T4
+  myForm.elements["mT4_Ft" ].value = parseInt(myForm.elements["T4_Ft" ].value) * T4
+  myForm.elements["mT4_Rng"].value = parseInt(myForm.elements["T4_Rng"].value) * T4
+
+  myForm.elements["mT5_Mnt"].value = parseInt(myForm.elements["T5_Mnt"].value) * T5
+  myForm.elements["mT5_Ft" ].value = parseInt(myForm.elements["T5_Ft" ].value) * T5
+  myForm.elements["mT5_Rng"].value = parseInt(myForm.elements["T5_Rng"].value) * T5
+
+  myForm.elements["mT6_Mnt"].value = parseInt(myForm.elements["T6_Mnt"].value) * T6
+  myForm.elements["mT6_Ft" ].value = parseInt(myForm.elements["T6_Ft" ].value) * T6
+  myForm.elements["mT6_Rng"].value = parseInt(myForm.elements["T6_Rng"].value) * T6
+  myForm.elements["mT62_Rng"].value = parseInt(myForm.elements["T6_Rng2"].value) * T6
+  myForm.elements["mT63_Rng"].value = parseInt(myForm.elements["T6_Rng3"].value) * T6
+  myForm.elements["mT7_Mnt"].value = parseInt(myForm.elements["T7_Mnt"].value) * T7
+  myForm.elements["mT7_Ft" ].value = parseInt(myForm.elements["T7_Ft" ].value) * T7
+  myForm.elements["mT8_Rng"].value = parseInt(myForm.elements["T8_Rng"].value) * T8
+
+  Troop_Might =               parseInt(myForm.elements["mT1_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT2_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT2_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT2_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT3_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT3_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT3_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT4_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT5_Rng"].value)
+
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT6_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT6_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT6_Rng"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT6_Rng2"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT6_Rng3"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT7_Mnt"].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT7_Ft" ].value)
+  Troop_Might = Troop_Might + parseInt(myForm.elements["mT8_Rng"].value)
+
+
+  myForm.elements["Troop_Might"].value = Troop_Might 
+
+  myForm.elements["mW1_A"  ].value = parseInt(myForm.elements["W1_A"  ].value) * W1
+  myForm.elements["mW1_B"  ].value = parseInt(myForm.elements["W1_B"  ].value) * W1
+  myForm.elements["mW1_C"  ].value = parseInt(myForm.elements["W1_C"  ].value) * W1
+
+  myForm.elements["mW2_A"  ].value = parseInt(myForm.elements["W2_A"  ].value) * W2
+  myForm.elements["mW2_B"  ].value = parseInt(myForm.elements["W2_B"  ].value) * W2
+  myForm.elements["mW2_C"  ].value = parseInt(myForm.elements["W2_C"  ].value) * W2
+
+  myForm.elements["mW3_A"  ].value = parseInt(myForm.elements["W3_A"  ].value) * W3
+  myForm.elements["mW3_B"  ].value = parseInt(myForm.elements["W3_B"  ].value) * W3
+  myForm.elements["mW3_C"  ].value = parseInt(myForm.elements["W3_C"  ].value) * W3
+
+  Wall_Might  =               parseInt(myForm.elements["mW1_A"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW1_B"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW1_C"  ].value)
+
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW2_A"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW2_B"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW2_C"  ].value)
+
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW3_A"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW3_B"  ].value)
+  Wall_Might  = Wall_Might  + parseInt(myForm.elements["mW3_C"  ].value)
+ 
+  myForm.elements["Wall_Might"].value = Wall_Might 
+
+  myForm.elements["Total_Might"].value = Troop_Might + Wall_Might 
+
+  return false
+
+}
+
+</script>
+
+<style type="text/css">
+  input     { text-align:right }
+  input.pop { background-color: #cccccc;
+              padding-right: 25px;
+            }
+</style>
+
+</head>
+
+<body>
+<h2>Beff's Might Calculator Beta V. 0.2.1C (Final) </h2>
+<br>
+<form>
+<br>
+<table  border=0>
+<tr>
+<td width=50><strong>Tier</strong></td>
+<td width=175><strong>Elf Units</strong></td>
+<td width=175><strong>Dwarf Units</strong></td>
+<td width=125 align="center"><strong>Qty.</strong></td>
+<td width=175 align="center"><strong>Might</strong></input></td>
+</tr>
+
+<tr><td>T1</td><td>Mounted Elves</td><td>Mounted Dwarves</td><td><input name="T1_Mnt" class="pop"></input></td>
+<td><input name="mT1_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T1</td><td>Elven Militia</td><td>Dwarf Militia</td><td><input name="T1_Ft" class="pop"></input></td>
+<td><input name="mT1_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T1</td><td>Elven Archers</td><td>Axe Throwers</td><td><input name="T1_Rng" class="pop"></input></td>
+<td><input name="mT1_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T2</td><td>Mounted Hunters</td><td>Boar Riders</td><td><input name="T2_Mnt" class="pop"></input></td>
+<td><input name="mT2_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T2</td><td>Elven Warriors</td><td>Dwarf Warriors</td><td><input name="T2_Ft" class="pop" ></input></td>
+<td><input name="mT2_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T2</td><td>Scorpions</td><td>Siege Crossbows</td><td><input name="T2_Rng" class="pop"></input></td>
+<td><input name="mT2_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T3</td><td>Mounted Galadhrim</td><td>Heavy Boar Riders</td><td><input name="T3_Mnt" class="pop"></input></td>
+<td><input name="mT3_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T3</td><td>Battering Rams</td><td>Battering Rams</td><td><input name="T3_Ft" class="pop"></input></td>
+<td><input name="mT3_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T3</td><td>Ents</td><td>Catapults</td><td><input name="T3_Rng" class="pop"></input></td>
+<td><input name="mT3_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T4</td><td>Galadhrim Lancers</td><td>Boar Archers<td><input name="T4_Mnt" class="pop" ></input></td>
+<td><input name="mT4_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T4</td><td>Mithlond Guards</td><td>Dwarf Phalanx</td><td><input name="T4_Ft" class="pop" ></input></td>
+<td><input name="mT4_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T4</td><td>Great Eagles</td><td>Catapult Wagon</td><td><input name="T4_Rng" class="pop"></input></td>
+<td><input name="mT4_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T5</td><td>Riders of Rivendell</td><td>Riders of Erebor<td><input name="T5_Mnt" class="pop" ></input></td>
+<td><input name="mT5_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T5</td><td>Elven Rangers</td><td>Grimm Hammers</td><td><input name="T5_Ft" class="pop" ></input></td>
+<td><input name="mT5_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T5</td><td>GaladhrimArchers</td><td>CrossbowWarriors</td><td><input name="T5_Rng" class="pop"></input></td>
+<td><input name="mT5_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+ <tr><td colspan=5>&nbsp;</td></tr>
+    <tr><td>T6</td><td>Stone Giants</td><td>-</td><td><input name="T6_Mnt" class="pop"></input></td>
+<td><input name="mT6_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T6</td><td>Lyncean Raiders</td><td>-</td><td><input name="T6_Ft" class="pop"></input></td>
+<td><input name="mT6_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T6</td><td>Enchanters</td><td>-</td><td><input name="T6_Rng" class="pop"></input></td>
+<td><input name="mT6_Rng" type="text" style="border: none" readonly></input></td></tr>
+    <tr><td>T6</td><td>Lake-Town Longbowmen</td><td>-</td><td><input name="T6_Rng2" class="pop"></input></td>
+<td><input name="mT6_Rng2" type="text" style="border: none" readonly></input></td></tr>
+    <tr><td>T6</td><td>Woodmen</td><td>-</td><td><input name="T6_Rng3" class="pop"></input></td>
+<td><input name="mT6_Rng3" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T6</td><td>Pack Mammoths</td><td>-<td><input name="T7_Mnt" class="pop" ></input></td>
+<td><input name="mT7_Mnt" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T6</td><td>Master Rangers</td><td>-</td><td><input name="T7_Ft" class="pop" ></input></td>
+<td><input name="mT7_Ft"  type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T6</td><td>Lake-Town Pikemen</td><td>-</td><td><input name="T8_Rng" class="pop"></input></td>
+<td><input name="mT8_Rng" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=4><strong>Troop Might Total</strong></td>
+<td><input name="Troop_Might" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=4>&nbsp;</td></tr>
+
+<tr><td>T1</td><td>Traps</td><td>-</td>
+<td><input name="W1_A" class="pop"></input></td>
+<td><input name="mW1_A" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T1</td><td>Caltrops</td><td>-</td>
+<td><input name="W1_B" class="pop"></input></td>
+<td><input name="mW1_B" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T1</td><td >Defense Crossbows</td><td>-</td>
+<td><input name="W1_C" class="pop"></input></td>
+<td><input name="mW1_C" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T2</td><td >Rock Droppers </td><td>-</td>
+<td><input name="W2_A" class="pop"></input></td>
+<td><input name="mW2_A" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T2</td><td >Thorn Hedges        </td><td>-</td>
+<td><input name="W2_B" class="pop"></input></td>
+<td><input name="mW2_B" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T2</td><td >Defensive Trebuchets</td><td>-</td>
+<td><input name="W2_C" class="pop"></input></td>
+<td><input name="mW2_C" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td>T3</td><td >Fire Droppers</td><td>Fire Throwers</td>
+<td><input name="W3_A" class="pop"></input></td>
+<td><input name="mW3_A" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T3</td><td >Tanglevines</td><td>Chain Webs</td>
+<td><input name="W3_B" class="pop"></input></td>
+<td><input name="mW3_B" type="text" style="border: none" readonly></input></td></tr>
+<tr><td>T3</td><td >Mist Globes</td><td>Boiling Lead</td>
+<td><input name="W3_C" class="pop"></input></td>
+<td><input name="mW3_C" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=4><strong>Wall Might Total</strong></td>
+<td><input name="Wall_Might" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=4><strong>Total Might, Troop + Wall</strong></td>
+<td><input name="Total_Might" type="text" style="border: none" readonly></input></td></tr>
+
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5><button type="button" onclick="javascript:Calculate();">Calculate</button>
+<button type="reset">Reset</button></td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+
+</table>
+
+
+
+
+</form>
+<div id="footer">
+<p>&copy; 2015-2016 Beffs Might Calculator</p>
+<p>Beffs Might Calculator is licensed under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License V. 2.0</a></p>
+<p> Source Code is available at The BMC <a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master">Github Site</a> </p>
+<p> And you can edit the source with our <a href="http://beffsmc.beffsbrowser.tk/editor.html">editor</a>!</p>
+<p><a href="http://goo.gl/forms/uCTHFh7S3L">Contact/Feedback</a> <a href="http://beffsmc.beffsbrowser.tk/changes0.2.1B.html">ChangeLog</a></p>
+<p><a href="http://beffsmc.beffsbrowser.tk/policy.html">Disclaimer/policy</a></p>
+</div>
+</body>
+</html>
