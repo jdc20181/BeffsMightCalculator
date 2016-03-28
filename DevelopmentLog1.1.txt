@@ -12,4 +12,6 @@ BeffsMightCalculator Version 1.1 Dev. Log
 
 -Adding a "NoScript" handler for users who have Javascript disabled
 
+-Adding a Labs folder with PHP version (A special thanks to http://sstur.github.io/js2php/demo/)
+
 NOTE: Nothing in this log is guaranteed to be published. This is the Development log for BMC not release notes!
