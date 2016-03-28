@@ -9,3 +9,7 @@ BeffsMightCalculator Version 1.1 Dev. Log
 -Adding a tutorial on how to save to homescreen (or anywhere)/Auto-Install link. 
 
 -Making various improvments. 
+
+-Adding a "NoScript" handler for users who have Javascript disabled
+
+NOTE: Nothing in this log is guaranteed to be published. This is the Development log for BMC not release notes!
