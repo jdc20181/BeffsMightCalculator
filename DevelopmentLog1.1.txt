@@ -1,0 +1,11 @@
+BeffsMightCalculator Version 1.1 Dev. Log
+
+-Adding support for Multiples of 1,10,50,100,500,1k,10k,100k. (Mobile version will not see this for a while)
+
+-Adding design for Desktop version. 
+
+-Adding Stability fixes. 
+
+-Adding a tutorial on how to save to homescreen (or anywhere)/Auto-Install link. 
+
+-Making various improvments. 
