@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <div class="w3-container w3-section w3-blue">
+  <h3>Info! <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">×</span></h3>
+  <p>Blue often indicates a neutral informative change or action.</p>
+</div>
 <?php
 $Calculate = new Func("Calculate", function() use (&$myForm, &$document, &$parseInt, &$Troop_Might, &$Wall_Might) {
   $myForm = get(get($document, "forms"), 0.0);
