@@ -1,6 +1,7 @@
 # BeffsMightCalculator
-A calculator to count up troop values from a popular mobile game called The Hobbit KOM 
-V. 0.2.1 "To the web" 
+
+<a href="http://beffsmc.beffsbrowser.tk">A calculator to count up troop values from a popular mobile game called The Hobbit KOM </a>
+V. 1.0 to be released by April 3, 2016!
 
 BeffsMC is now a web-based project as we transition from VB.net to java/html it is gonna get fun!
 
@@ -13,6 +14,9 @@ BeffsMC is now a web-based project as we transition from VB.net to java/html it 
 <a href="https://github.com/jdc20181/BeffsMightCalculator/blob/master/Docs/README.md">Docs</a>: contains a table of contents for the wiki!
 
 <a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master/Archives">Archives</a>: Contains old versions, including the vb.net code
+
+<a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master/Labs">Labs</a>: contains development possibilities!
+
 
 
 #Disclaimer/TOS 
