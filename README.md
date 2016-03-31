@@ -6,13 +6,14 @@ BeffsMC is now a web-based project as we transition from VB.net to java/html it 
 
 #Folders
 
-Archives: Contains old versions, including the vb.net code
+<a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master/Current">Current</a>: Has the latest files for The DeskTop and Mobile Version. 
 
-Docs: Contains info on Developing BMC, Change logs and The BMC Disclaimer policy 
+<a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master/Dev">Dev</a>: Has the Code for the working in progress new version. 
 
-Current: Has the latest files for The DeskTop and Mobile Version. 
+<a href="https://github.com/jdc20181/BeffsMightCalculator/blob/master/Docs/README.md">Docs</a>: contains a table of contents for the wiki!
 
-Dev: Has the Code for the working in progress new version. 
+<a href="https://github.com/jdc20181/BeffsMightCalculator/tree/master/Archives">Archives</a>: Contains old versions, including the vb.net code
+
 
 #Disclaimer/TOS 
 
