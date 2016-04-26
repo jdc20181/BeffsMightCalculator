@@ -1,3 +1,7 @@
+
+#Update
+The site is down due to a "Lack of visits" if the overall number of hits is less than 30 by June 1, BMC will be closed 
+
 # BeffsMightCalculator
 
 <a href="http://beffsmightcalculator.tk">A calculator </a>to count up troop values from a popular mobile game called The Hobbit KOM 
