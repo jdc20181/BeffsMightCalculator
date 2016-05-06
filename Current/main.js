@@ -68,7 +68,7 @@ function Calculate() {
   myForm.elements["mT7_Mnt"].value = parseInt(myForm.elements["T7_Mnt"].value) * T7
   myForm.elements["mT7_Ft" ].value = parseInt(myForm.elements["T7_Ft" ].value) * T7
   myForm.elements["mT8_Rng"].value = parseInt(myForm.elements["T8_Rng"].value) * T8
-  Troop_Might =               parseInt(myForm.elements["mT1_Mnt"].value)
+  Troop_Might =   Troop_Might + parseInt(myForm.elements["mT1_Mnt"].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Ft" ].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT1_Rng"].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT2_Mnt"].value)
@@ -91,7 +91,7 @@ function Calculate() {
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT7_Mnt"].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT7_Ft" ].value)
   Troop_Might = Troop_Might + parseInt(myForm.elements["mT8_Rng"].value)
-  myForm.elements["Troop_Might"].value = Troop_Might 
+  myForm.elements["Troop_Might"].value = Troop_Might //bug 112-b
   myForm.elements["mW1_A"  ].value = parseInt(myForm.elements["W1_A"  ].value) * W1
   myForm.elements["mW1_B"  ].value = parseInt(myForm.elements["W1_B"  ].value) * W1
   myForm.elements["mW1_C"  ].value = parseInt(myForm.elements["W1_C"  ].value) * W1
