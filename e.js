@@ -44,7 +44,7 @@ function Calculate() {
   if (myForm.elements["W3_B"  ].value == "") myForm.elements["W3_B"  ].value = "0"
   if (myForm.elements["W3_C"  ].value == "") myForm.elements["W3_C"  ].value = "0"
  
-  myForm.elements["mT1_Mnt"].value = parseInt(myForm.elements["T1_Mnt"].value) * myform.elements["packs"].value* T1 
+  myForm.elements["mT1_Mnt"].value = parseInt(myForm.elements["T1_Mnt"].value) * myform.elements["packs"].value=parseInt(myForm.elements["packs"].value)* T1 
   myForm.elements["mT1_Ft" ].value = parseInt(myForm.elements["T1_Ft" ].value) * T1
   myForm.elements["mT1_Rng"].value = parseInt(myForm.elements["T1_Rng"].value) * T1
   myForm.elements["mT2_Mnt"].value = parseInt(myForm.elements["T2_Mnt"].value) * T2
