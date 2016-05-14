@@ -11,6 +11,9 @@ function Calculate() {
   var W1 = 18
   var W2 = 24
   var W3 = 30
+  //exp
+   if (myForm.elements["packs"].value == "") myForm.elements["packs"].value = "0"
+   //end
   if (myForm.elements["T1_Mnt"].value == "") myForm.elements["T1_Mnt"].value = "0"
   if (myForm.elements["T1_Ft" ].value == "") myForm.elements["T1_Ft" ].value = "0"
   if (myForm.elements["T1_Rng"].value == "") myForm.elements["T1_Rng"].value = "0"
