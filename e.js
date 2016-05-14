@@ -11,9 +11,7 @@ function Calculate() {
   var W1 = 18
   var W2 = 24
   var W3 = 30
-  //exp
-   if (myForm.elements["packs"].value == "") myForm.elements["packs"].value = "0"
-   //end
+var pack =   myForm.elements["packs"].value = parseInt(myForm.elements["packs"].value)
   if (myForm.elements["T1_Mnt"].value == "") myForm.elements["T1_Mnt"].value = "0"
   if (myForm.elements["T1_Ft" ].value == "") myForm.elements["T1_Ft" ].value = "0"
   if (myForm.elements["T1_Rng"].value == "") myForm.elements["T1_Rng"].value = "0"
@@ -47,7 +45,7 @@ function Calculate() {
   if (myForm.elements["W3_B"  ].value == "") myForm.elements["W3_B"  ].value = "0"
   if (myForm.elements["W3_C"  ].value == "") myForm.elements["W3_C"  ].value = "0"
  
-  myForm.elements["mT1_Mnt"].value = parseInt(myForm.elements["T1_Mnt"].value) * myform.elements["packs"].value=parseInt(myForm.elements["packs"].value)* T1 
+  myForm.elements["mT1_Mnt"].value = parseInt(myForm.elements["T1_Mnt"].value) * T1 * pack
   myForm.elements["mT1_Ft" ].value = parseInt(myForm.elements["T1_Ft" ].value) * T1
   myForm.elements["mT1_Rng"].value = parseInt(myForm.elements["T1_Rng"].value) * T1
   myForm.elements["mT2_Mnt"].value = parseInt(myForm.elements["T2_Mnt"].value) * T2
